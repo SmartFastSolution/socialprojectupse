@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'socialprojectupse',
+    'social_django',
     'core',
     'questions',
 ]
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'socialprojectupse.urls'
+ROOT_URLCONF = 'socialproject.urls'
 
 TEMPLATES = [
     {
@@ -65,14 +65,14 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'socialprojectupse.context_processors.backends',
-                'socialprojectupse.context_processors.login_redirect',
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect',
             ],
         },
     },
 ]
 
-WSGI_APPLICATION = 'socialprojectupse.wsgi.application'
+WSGI_APPLICATION = 'socialproject.wsgi.application'
 
 AUTHENTICATION_BACKENDS = (
     
