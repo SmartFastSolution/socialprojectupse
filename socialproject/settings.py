@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'socialproject.urls'
+ROOT_URLCONF = 'socialprojectupse.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'socialproject.wsgi.application'
+WSGI_APPLICATION = 'socialprojectupse.wsgi.application'
 
 AUTHENTICATION_BACKENDS = (
     
