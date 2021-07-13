@@ -30,6 +30,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('questions/', include('questions.urls')),
-    url(r'', include('socialproject.urls', namespace='social')),
+    url(r'', include('socialproject.urls', namespace='socialproject')),
     path("logout/", LogoutView.as_view(), name="logout"),
 ]
