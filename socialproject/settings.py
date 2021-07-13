@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'socialprojectupse',
+    'socialproject',
     'core',
     'questions',
 ]
@@ -65,14 +65,14 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'socialprojectupse.context_processors.backends',
-                'socialprojectupse.context_processors.login_redirect',
+                'socialproject.context_processors.backends',
+                'socialproject.context_processors.login_redirect',
             ],
         },
     },
 ]
 
-WSGI_APPLICATION = 'socialprojectupse.wsgi.application'
+WSGI_APPLICATION = 'socialproject.wsgi.application'
 
 AUTHENTICATION_BACKENDS = (
     
