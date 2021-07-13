@@ -31,5 +31,5 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('questions/', include('questions.urls')),
     url(r'', include('socialproject.urls', namespace='social')),
-    path("logout/", LogoutView.as_view(), name="logout")
+    path("logout/", LogoutView.as_view(), name="logout"),
 ]
