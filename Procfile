@@ -1,1 +1,1 @@
-web: gunicorn socialproject.wsgi:application --log-file -
+web: gunicorn socialproject.wsgi --log-file -
