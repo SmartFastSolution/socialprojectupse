@@ -1,1 +1,1 @@
-web gunicorn dtcproject.wsgi
+web gunicorn socialproject.wsgi
