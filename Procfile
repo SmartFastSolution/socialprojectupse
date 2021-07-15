@@ -1,1 +1,1 @@
-web: gunicorn social_django.wsgi
+web: gunicorn socialprojectupse.wsgi
