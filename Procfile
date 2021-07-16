@@ -1,1 +1,1 @@
-web gunicorn dtcsocialproject.wsgi --log-file -
+web: gunicorn dtcsocialproject.wsgi --log-file=-
